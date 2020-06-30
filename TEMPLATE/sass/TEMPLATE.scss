@@ -1,0 +1,118 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    margin-bottom: 4em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+}
+
+/* OCHRE
+*/
+
+$primary-color: #1b1f38;
+$secondary-color: #d6d6ce;
+$primary-font: 'ProximaNova-Semibold';
+$secondary-font: 'ProximaNovaT-Thin';
+
+html, body {
+  height: 100%;
+  font-family: $primary-font;
+}
+
+#ochreDIV {
+  width: 95%;
+  margin: 3%;
+}
+
+#headings {
+  padding-top: 30px;
+}
+
+p.secondary {
+  font-family: $secondary-font;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.navbar {
+  background-color: $primary-color;
+  text-align: left;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $secondary-color;
+  color: white;
+  text-align: center;
+}
+
+.footerImg {
+  max-height: 100px;
+  padding: 20px;
+  float: center;
+}
+
+ul {
+  padding: 20px;
+  color: $primary-color;
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  font-family: $secondary-font;
+}
+
+a {
+  color: #4f5682;
+}
+a:hover {
+  text-decoration: none;
+  color: $secondary-color;
+}
