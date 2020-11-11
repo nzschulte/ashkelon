@@ -34,8 +34,9 @@ body {
   margin-bottom: 4em;
 }
 
-ol, ul {
+ol, ul, li {
   list-style: none;
+  font-family: "ProximaNova-Regular";
 }
 
 blockquote, q {
